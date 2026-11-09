@@ -1,0 +1,24 @@
+name: app_final
+description: App para gerenciar e compartilhar ranking de games.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  screenshot: ^3.0.0
+  share_plus: ^10.0.0
+  path_provider: ^2.1.0
+  image_picker: ^1.1.2
+  shared_preferences: ^2.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
